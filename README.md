@@ -1,0 +1,11 @@
+# WaterFallWithCHTLayout
+create a waterfall with CHTCollectionViewWaterfallLayout
+
+CollectionView文件夹是不使用第三方的普通的collectionView
+
+CHTCollectionView文件夹是使用CHTCollectionViewWaterfallLayout的第三方库实现的瀑布流
+
+第三方包使用注意点：
+storyboard中
+点击CollectionView→点击右上角的Show the Abbributes inspector→将Layout从FLow换成Custom→class改为第三方包的CHTCollectionViewWaterfallLayout
+其他的配置属性，设置id都与普通collectionView差不多
